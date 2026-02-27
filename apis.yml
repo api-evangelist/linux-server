@@ -1,0 +1,170 @@
+name: Linux Server API
+description: Collection of APIs for managing and monitoring Linux servers
+image: https://www.linux.org/images/logo.png
+url: https://example.com/linux-server-api
+created: '2024-01-15'
+modified: '2024-01-15'
+apis:
+- name: System Information API
+  description: Retrieve system information including CPU, memory, disk, and OS details
+  image: https://example.com/images/system-info.png
+  humanURL: https://example.com/docs/system-info
+  baseURL: https://api.example.com/v1/system
+  tags:
+  - system
+  - monitoring
+  - hardware
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/system-info
+  - type: OpenAPI
+    url: https://api.example.com/v1/system/openapi.json
+  - type: Authentication
+    url: https://example.com/docs/authentication
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+  - type: Support
+    url: https://example.com/support
+- name: Process Management API
+  description: Manage system processes - list, start, stop, and monitor running processes
+  image: https://example.com/images/process.png
+  humanURL: https://example.com/docs/processes
+  baseURL: https://api.example.com/v1/processes
+  tags:
+  - processes
+  - management
+  - system
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/processes
+  - type: OpenAPI
+    url: https://api.example.com/v1/processes/openapi.json
+  - type: Postman Collection
+    url: https://example.com/postman/processes.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: File System API
+  description: Manage files and directories on the Linux server
+  image: https://example.com/images/filesystem.png
+  humanURL: https://example.com/docs/filesystem
+  baseURL: https://api.example.com/v1/filesystem
+  tags:
+  - filesystem
+  - files
+  - storage
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/filesystem
+  - type: OpenAPI
+    url: https://api.example.com/v1/filesystem/openapi.json
+  - type: Swagger UI
+    url: https://api.example.com/swagger/filesystem
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: User Management API
+  description: Manage system users and groups
+  image: https://example.com/images/users.png
+  humanURL: https://example.com/docs/users
+  baseURL: https://api.example.com/v1/users
+  tags:
+  - users
+  - authentication
+  - security
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/users
+  - type: OpenAPI
+    url: https://api.example.com/v1/users/openapi.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: Network Configuration API
+  description: Configure and monitor network interfaces, routing, and firewall rules
+  image: https://example.com/images/network.png
+  humanURL: https://example.com/docs/network
+  baseURL: https://api.example.com/v1/network
+  tags:
+  - network
+  - configuration
+  - firewall
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/network
+  - type: OpenAPI
+    url: https://api.example.com/v1/network/openapi.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: Package Management API
+  description: Install, update, and remove software packages
+  image: https://example.com/images/packages.png
+  humanURL: https://example.com/docs/packages
+  baseURL: https://api.example.com/v1/packages
+  tags:
+  - packages
+  - software
+  - installation
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/packages
+  - type: OpenAPI
+    url: https://api.example.com/v1/packages/openapi.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: Service Management API
+  description: Manage systemd services - start, stop, restart, and check status
+  image: https://example.com/images/services.png
+  humanURL: https://example.com/docs/services
+  baseURL: https://api.example.com/v1/services
+  tags:
+  - services
+  - systemd
+  - management
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/services
+  - type: OpenAPI
+    url: https://api.example.com/v1/services/openapi.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+- name: Logs and Monitoring API
+  description: Access system logs and monitoring metrics
+  image: https://example.com/images/logs.png
+  humanURL: https://example.com/docs/logs
+  baseURL: https://api.example.com/v1/logs
+  tags:
+  - logs
+  - monitoring
+  - metrics
+  properties:
+  - type: Documentation
+    url: https://example.com/docs/logs
+  - type: OpenAPI
+    url: https://api.example.com/v1/logs/openapi.json
+  contact:
+  - type: Email
+    url: mailto:api@example.com
+maintainers:
+- name: DevOps Team
+  email: devops@example.com
+  url: https://example.com/team
+tags:
+- linux
+- server
+- infrastructure
+- api
+- system-administration
+common:
+- type: Authentication
+  url: https://example.com/docs/authentication
+- type: Rate Limits
+  url: https://example.com/docs/rate-limits
+- type: Terms of Service
+  url: https://example.com/terms
+- type: Privacy Policy
+  url: https://example.com/privacy
