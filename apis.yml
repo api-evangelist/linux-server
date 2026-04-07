@@ -6,9 +6,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Infrastructure
   - Linux
   - Server
-  - Infrastructure
   - System Administration
 url: https://raw.githubusercontent.com/api-evangelist/linux-server/refs/heads/main/apis.yml
 created: '2024-01-15'
