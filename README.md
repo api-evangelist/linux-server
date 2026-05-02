@@ -1,151 +1,110 @@
-# Linux Server API (linux-server)
-Collection of APIs for managing and monitoring Linux servers
+# Linux Server (linux-server)
+Linux Server is a topic catalog covering management, administration, and monitoring interfaces used to operate Linux servers in production. It organizes references to systemd, cockpit, the Linux audit framework, package managers (apt, dnf, rpm), configuration management and provisioning tooling, and remote administration protocols commonly used on Linux servers.
 
-**URL:** [Visit APIs.json URL](https://example.com/linux-server-api)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/linux-server/refs/heads/main/apis.yml)
+
+## Scope
+- **Type:** Topic
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
 ## Tags:
-
- - linux, server, infrastructure, api, system-administration
+ - Infrastructure, Linux, Server, System Administration, DevOps
 
 ## Timestamps
-
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### System Information API
-Retrieve system information including CPU, memory, disk, and OS details
+### systemd
+System and service manager for Linux, providing process supervision, socket activation, journaled logging, and a D-Bus management API.
 
-**Human URL:** [https://example.com/docs/system-info](https://example.com/docs/system-info)
-
-
-#### Tags:
-
- - system, monitoring, hardware
-
-#### Properties
-
-- [Documentation](https://example.com/docs/system-info)
-- [OpenAPI](https://api.example.com/v1/system/openapi.json)
-- [Authentication](https://example.com/docs/authentication)
-
-### Process Management API
-Manage system processes - list, start, stop, and monitor running processes
-
-**Human URL:** [https://example.com/docs/processes](https://example.com/docs/processes)
-
+**Human URL:** [https://systemd.io/](https://systemd.io/)
 
 #### Tags:
-
- - processes, management, system
+ - Service Management, Init, D-Bus
 
 #### Properties
+- [Documentation](https://www.freedesktop.org/software/systemd/man/)
+- [Reference](https://www.freedesktop.org/wiki/Software/systemd/dbus/)
+- [Source Code](https://github.com/systemd/systemd)
 
-- [Documentation](https://example.com/docs/processes)
-- [OpenAPI](https://api.example.com/v1/processes/openapi.json)
-- [Postman Collection](https://example.com/postman/processes.json)
+### Cockpit
+Web-based graphical interface for Linux server administration, providing tools for managing services, storage, networking, and accounts.
 
-### File System API
-Manage files and directories on the Linux server
-
-**Human URL:** [https://example.com/docs/filesystem](https://example.com/docs/filesystem)
-
+**Human URL:** [https://cockpit-project.org/](https://cockpit-project.org/)
 
 #### Tags:
-
- - filesystem, files, storage
+ - Administration, Web UI, Remote
 
 #### Properties
+- [Documentation](https://cockpit-project.org/documentation.html)
+- [Source Code](https://github.com/cockpit-project/cockpit)
 
-- [Documentation](https://example.com/docs/filesystem)
-- [OpenAPI](https://api.example.com/v1/filesystem/openapi.json)
-- [Swagger UI](https://api.example.com/swagger/filesystem)
+### Linux Audit
+The Linux audit subsystem and userspace tools for tracking security-relevant events on a Linux server.
 
-### User Management API
-Manage system users and groups
-
-**Human URL:** [https://example.com/docs/users](https://example.com/docs/users)
-
+**Human URL:** [https://github.com/linux-audit/audit-documentation](https://github.com/linux-audit/audit-documentation)
 
 #### Tags:
-
- - users, authentication, security
+ - Security, Auditing, Compliance
 
 #### Properties
+- [Documentation](https://github.com/linux-audit/audit-documentation/wiki)
+- [Source Code](https://github.com/linux-audit/audit-userspace)
 
-- [Documentation](https://example.com/docs/users)
-- [OpenAPI](https://api.example.com/v1/users/openapi.json)
+### APT
+The Advanced Package Tool used by Debian, Ubuntu, and derivatives for installing, upgrading, and removing software packages.
 
-### Network Configuration API
-Configure and monitor network interfaces, routing, and firewall rules
-
-**Human URL:** [https://example.com/docs/network](https://example.com/docs/network)
-
+**Human URL:** [https://wiki.debian.org/Apt](https://wiki.debian.org/Apt)
 
 #### Tags:
-
- - network, configuration, firewall
+ - Package Management, Debian, Ubuntu
 
 #### Properties
+- [Documentation](https://manpages.debian.org/bookworm/apt/apt.8.en.html)
 
-- [Documentation](https://example.com/docs/network)
-- [OpenAPI](https://api.example.com/v1/network/openapi.json)
+### DNF
+The Dandified YUM package manager used on Fedora, RHEL, CentOS Stream, and related distributions.
 
-### Package Management API
-Install, update, and remove software packages
-
-**Human URL:** [https://example.com/docs/packages](https://example.com/docs/packages)
-
+**Human URL:** [https://dnf.readthedocs.io/](https://dnf.readthedocs.io/)
 
 #### Tags:
-
- - packages, software, installation
+ - Package Management, Fedora, RHEL
 
 #### Properties
+- [Documentation](https://dnf.readthedocs.io/en/latest/)
+- [Source Code](https://github.com/rpm-software-management/dnf)
 
-- [Documentation](https://example.com/docs/packages)
-- [OpenAPI](https://api.example.com/v1/packages/openapi.json)
+### OpenSSH
+The de facto standard suite for secure remote login, command execution, and file transfer on Linux servers.
 
-### Service Management API
-Manage systemd services - start, stop, restart, and check status
-
-**Human URL:** [https://example.com/docs/services](https://example.com/docs/services)
-
+**Human URL:** [https://www.openssh.com/](https://www.openssh.com/)
 
 #### Tags:
-
- - services, systemd, management
+ - Remote Access, Security, SSH
 
 #### Properties
+- [Documentation](https://www.openssh.com/manual.html)
+- [Source Code](https://github.com/openssh/openssh-portable)
 
-- [Documentation](https://example.com/docs/services)
-- [OpenAPI](https://api.example.com/v1/services/openapi.json)
+### systemd-journald
+The systemd journal daemon, providing structured, indexed logs for the Linux server with a query API via journalctl and libsystemd.
 
-### Logs and Monitoring API
-Access system logs and monitoring metrics
-
-**Human URL:** [https://example.com/docs/logs](https://example.com/docs/logs)
-
+**Human URL:** [https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html](https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html)
 
 #### Tags:
-
- - logs, monitoring, metrics
+ - Logging, Observability
 
 #### Properties
-
-- [Documentation](https://example.com/docs/logs)
-- [OpenAPI](https://api.example.com/v1/logs/openapi.json)
+- [Documentation](https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html)
 
 ## Common Properties
-
-- [Authentication](https://example.com/docs/authentication)
-- [Rate Limits](https://example.com/docs/rate-limits)
-- [Terms of Service](https://example.com/terms)
-- [Privacy Policy](https://example.com/privacy)
+- [Linux Foundation](https://www.linuxfoundation.org/)
+- [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/)
+- [Linux man-pages](https://man7.org/linux/man-pages/)
 
 ## Maintainers
-
-**FN:** DevOps Team
-
-**Email:** devops@example.com
+**FN:** Kin Lane
+**Email:** kin@apievangelist.com
