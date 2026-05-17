@@ -6,7 +6,7 @@ description: >-
   organizes references to systemd, cockpit, the Linux audit framework, package
   managers (apt, dnf, rpm), configuration management and provisioning tooling,
   and remote administration protocols commonly used on Linux servers.
-type: Topic
+kind: topic
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
