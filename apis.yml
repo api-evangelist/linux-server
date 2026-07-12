@@ -124,6 +124,10 @@ apis:
       - type: Documentation
         url: https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/linux-server-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/linux-server-domain-security.yml
   - type: Website
     name: Linux Foundation
     description: The Linux Foundation hosts the Linux kernel project.
