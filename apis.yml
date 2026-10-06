@@ -48,7 +48,7 @@ tags_raw:
   - DevOps
 url: https://raw.githubusercontent.com/api-evangelist/linux-server/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: linux-server:systemd
@@ -154,6 +154,10 @@ apis:
       - type: Documentation
         url: https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html
 common:
+  - url: https://www.linuxfoundation.org/blog
+    type: Blog
+  - url: https://www.linuxfoundation.org/blog/rss.xml
+    type: BlogRSS
   - type: IssueTracker
     url: https://github.com/systemd/systemd/issues
   - type: Releases
