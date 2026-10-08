@@ -154,6 +154,12 @@ apis:
       - type: Documentation
         url: https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html
 common:
+  - type: Plans
+    url: plans/linux-server-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/linux-server-rate-limits.yml
+  - type: FinOps
+    url: finops/linux-server-finops.yml
   - url: https://www.linuxfoundation.org/blog
     type: Blog
   - url: https://www.linuxfoundation.org/blog/rss.xml
