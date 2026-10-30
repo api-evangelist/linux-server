@@ -1,4 +1,4 @@
-# Linux Server (linux-server)
+# linux-server
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,112 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Linux Server is a topic catalog covering management, administration, and monitoring interfaces used to operate Linux servers in production. It organizes references to systemd, cockpit, the Linux audit framework, package managers (apt, dnf, rpm), configuration management and provisioning tooling, and remote administration protocols commonly used on Linux servers.
+## linux-server on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/linux-server/refs/heads/main/apis.yml)
+Everything profiled for linux-server is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linux-server/](https://apis.io/providers/linux-server/)** — or go straight to one of the APIs or properties below.
 
-## Scope
-- **Type:** Topic
-- **Position:** Consumer
-- **Access:** 3rd-Party
+## API Evangelist rating
 
-## Tags:
- - Infrastructure, Linux, Server, System Administration, DevOps
+Not yet rated. See [apis.io/providers/linux-server/](https://apis.io/providers/linux-server/).
 
-## Timestamps
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
+## How this profile is made
 
-## APIs
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-### systemd
-System and service manager for Linux, providing process supervision, socket activation, journaled logging, and a D-Bus management API.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for linux-server: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Human URL:** [https://systemd.io/](https://systemd.io/)
+## Open an issue
 
-#### Tags:
- - Service Management, Init, D-Bus
-
-#### Properties
-- [Documentation](https://www.freedesktop.org/software/systemd/man/)
-- [Reference](https://www.freedesktop.org/wiki/Software/systemd/dbus/)
-- [Source Code](https://github.com/systemd/systemd)
-
-### Cockpit
-Web-based graphical interface for Linux server administration, providing tools for managing services, storage, networking, and accounts.
-
-**Human URL:** [https://cockpit-project.org/](https://cockpit-project.org/)
-
-#### Tags:
- - Administration, Web UI, Remote
-
-#### Properties
-- [Documentation](https://cockpit-project.org/documentation.html)
-- [Source Code](https://github.com/cockpit-project/cockpit)
-
-### Linux Audit
-The Linux audit subsystem and userspace tools for tracking security-relevant events on a Linux server.
-
-**Human URL:** [https://github.com/linux-audit/audit-documentation](https://github.com/linux-audit/audit-documentation)
-
-#### Tags:
- - Security, Auditing, Compliance
-
-#### Properties
-- [Documentation](https://github.com/linux-audit/audit-documentation/wiki)
-- [Source Code](https://github.com/linux-audit/audit-userspace)
-
-### APT
-The Advanced Package Tool used by Debian, Ubuntu, and derivatives for installing, upgrading, and removing software packages.
-
-**Human URL:** [https://wiki.debian.org/Apt](https://wiki.debian.org/Apt)
-
-#### Tags:
- - Package Management, Debian, Ubuntu
-
-#### Properties
-- [Documentation](https://manpages.debian.org/bookworm/apt/apt.8.en.html)
-
-### DNF
-The Dandified YUM package manager used on Fedora, RHEL, CentOS Stream, and related distributions.
-
-**Human URL:** [https://dnf.readthedocs.io/](https://dnf.readthedocs.io/)
-
-#### Tags:
- - Package Management, Fedora, RHEL
-
-#### Properties
-- [Documentation](https://dnf.readthedocs.io/en/latest/)
-- [Source Code](https://github.com/rpm-software-management/dnf)
-
-### OpenSSH
-The de facto standard suite for secure remote login, command execution, and file transfer on Linux servers.
-
-**Human URL:** [https://www.openssh.com/](https://www.openssh.com/)
-
-#### Tags:
- - Remote Access, Security, SSH
-
-#### Properties
-- [Documentation](https://www.openssh.com/manual.html)
-- [Source Code](https://github.com/openssh/openssh-portable)
-
-### systemd-journald
-The systemd journal daemon, providing structured, indexed logs for the Linux server with a query API via journalctl and libsystemd.
-
-**Human URL:** [https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html](https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html)
-
-#### Tags:
- - Logging, Observability
-
-#### Properties
-- [Documentation](https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html)
-
-## Common Properties
-- [Linux Foundation](https://www.linuxfoundation.org/)
-- [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/)
-- [Linux man-pages](https://man7.org/linux/man-pages/)
-
-## Maintainers
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linux-server/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
